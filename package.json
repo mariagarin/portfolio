@@ -23,7 +23,9 @@
     "gatsby-plugin-netlify": "^2.4.0",
     "gatsby-plugin-offline": "^3.3.3",
     "gatsby-plugin-sitemap": "^2.5.1",
+    "gatsby-remark-images": "^3.11.0",
     "gatsby-source-instagram": "^0.9.0",
+    "gatsby-transformer-remark": "^2.16.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },

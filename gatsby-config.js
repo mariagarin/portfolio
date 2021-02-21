@@ -4,7 +4,22 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
+    // Used for the title template on pages other than the index site
+    siteTitle: `Masha`,
+    // Default title of the page
+    siteTitleAlt: `JMasha - @lekoarts/gatsby-theme-jodie`,
+    // Can be used for e.g. JSONLD
+    siteHeadline: `JMasha - Gatsby Theme from @lekoarts`,
+    // Will be used to generate absolute URLs for og:image etc.
+    siteUrl: `https://jodie.lekoarts.de`,
+    // Used for SEO
+    siteDescription: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
+    // Will be set on the html tag
+    siteLanguage: `en`,
+    // Used for og:image and must be placed inside the `static` folder
+    siteImage: `/banner.jpg`,
+    // Twitter Handle
+    author: `@lekoarts_de`,
   },
   plugins: [
     {
@@ -12,9 +27,10 @@ module.exports = {
       // See the theme's README for all available options
       options: {
         navigation: [
-          { name: `Projects`, slug: `/projects` },
-          { name: `Instagram`, slug: `/instagram` },
-          { name: `About`, slug: `/about` },
+                            { name: `About`, slug: `/about` },
+          { name: `Marketing Portfolio`, slug: `/projects` },
+          { name: `Illustration & Design`, slug: `/instagram` },
+          // change name n url + format
         ],
       },
     },
@@ -27,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-source-instagram`,
       options: {
-        username: `2315642426`,
+        username: `5737961233`,
       },
     },
     `gatsby-plugin-sitemap`,
@@ -38,8 +54,8 @@ module.exports = {
         short_name: `jodie`,
         description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#b75e09`,
+        background_color: `#b75e09`,
+        theme_color: `#ffffff`,
         display: `standalone`,
         icons: [
           {
@@ -57,5 +73,27 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
+    `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 1200,
+            },
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/pages`,
+      },
+    },
   ],
 }
+
