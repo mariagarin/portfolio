@@ -5,11 +5,11 @@ require(`dotenv`).config({
 module.exports = {
   siteMetadata: {
     // Used for the title template on pages other than the index site
-    siteTitle: `Masha`,
+    siteTitle: `Maria`,
     // Default title of the page
-    siteTitleAlt: `JMasha - @lekoarts/gatsby-theme-jodie`,
+    siteTitleAlt: `Maria - @lekoarts/gatsby-theme-jodie`,
     // Can be used for e.g. JSONLD
-    siteHeadline: `JMasha - Gatsby Theme from @lekoarts`,
+    siteHeadline: `Maria - Gatsby Theme from @lekoarts`,
     // Will be used to generate absolute URLs for og:image etc.
     siteUrl: `https://jodie.lekoarts.de`,
     // Used for SEO
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `jodie - @lekoarts/gatsby-theme-jodie`,
+        name: `jodie - @lekoarts/gatsby-plugin-theme`,
         short_name: `jodie`,
         description: `Image-heavy photography portfolio with colorful accents & customizable pages. Includes adaptive image grids powered by CSS grid and automatic image integration into projects.`,
         start_url: `/`,
