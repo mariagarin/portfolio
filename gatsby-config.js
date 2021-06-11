@@ -2,6 +2,8 @@ require(`dotenv`).config({
   path: `.env`,
 })
 
+const path = require(`path`);
+
 module.exports = {
   siteMetadata: {
     // Used for the title template on pages other than the index site
@@ -91,9 +93,11 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
+        name: `images`,
+        path: path.join(__dirname, `src`, `images`),
       },
     },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
   ],
 }
-
