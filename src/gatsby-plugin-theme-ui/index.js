@@ -15,14 +15,14 @@ const theme = merge(tailwind, {
   colors: {
     primary: `#f2ffb8`,
     // about marketingportfolio illustrationanddesign linkcolorsonabout
-    primaryLight: `#f18a27`,
-    secondary: tailwind.colors.indigo[6],
+    primaryLight: `#caedcd`,
+    secondary: 'tailwind.colors.indigo[6]',
     heading: '#626e80',
     // about header text #626e80darkgray
-    background: '#bedbbb',
+    background: '#c6ebc9',
     // background on about illustrationanddesign
     text: '#7a8799',
-    // normal text and titles in illustrationanddesign #c6ebc9lightgreen
+    // normal text and titles in illustrationanddesign #c6ebc9lightgreen ##caedcddarker
     textMuted: `#46505f`,
     // dark blue
     textMutedLight: `#a0aab8`,
