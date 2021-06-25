@@ -8,8 +8,6 @@ export function MMP32() {
      alt="MMP32"
      placeholder="blurred"
      layout="fullWidth"
-     width={855}
-     height={1200}
    /> 
  )
 }

@@ -8,8 +8,6 @@ export function BLUE() {
      alt="BLUE"
      placeholder="blurred"
      layout="fullWidth"
-     width={855}
-     height={1200}
    />
  )
 }

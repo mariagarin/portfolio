@@ -8,8 +8,6 @@ export function INN15() {
      alt="INN15"
      placeholder="blurred"
      layout="fullWidth"
-     width={855}
-     height={1200}
    /> 
  )
 }

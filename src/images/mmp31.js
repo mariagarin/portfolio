@@ -8,8 +8,6 @@ export function MMP31() {
      alt="MMP31"
      placeholder="blurred"
      layout="fullWidth"
-     width={855}
-     height={1200}
    /> 
  )
 }

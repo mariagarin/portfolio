@@ -8,8 +8,6 @@ export function GREENCOVER() {
      alt="GREENCOVER"
      placeholder="blurred"
      layout="fullWidth"
-     width={855}
-     height={1200}
    />
  )
 }

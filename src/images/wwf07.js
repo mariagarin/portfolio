@@ -8,8 +8,6 @@ export function WWF07() {
      alt="WWF07"
      placeholder="blurred"
      layout="fullWidth"
-     width={855}
-     height={1200}
    /> 
  )
 }

@@ -8,8 +8,6 @@ export function INN23() {
      alt="INN23"
      placeholder="blurred"
      layout="fullWidth"
-     width={855}
-     height={1200}
    /> 
  )
 }
