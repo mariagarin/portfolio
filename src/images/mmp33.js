@@ -1,11 +1,11 @@
 import React, { Component }  from 'react';
 import { StaticImage } from "gatsby-plugin-image"
 
-export function WWF01() {
+export function MMP33() {
  return (
    <StaticImage
-     src="../images/wwf01.png"
-     alt="WWF01"
+     src="../images/mmp33.png"
+     alt="MMP33"
      placeholder="blurred"
      layout="fullWidth"
      width={855}

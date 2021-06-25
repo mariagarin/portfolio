@@ -1,15 +1,15 @@
 import React, { Component }  from 'react';
 import { StaticImage } from "gatsby-plugin-image"
 
-export function WWF01() {
+export function GREENCOVER() {
  return (
    <StaticImage
-     src="../images/wwf01.png"
-     alt="WWF01"
+     src="../images/greencover.png"
+     alt="GREENCOVER"
      placeholder="blurred"
      layout="fullWidth"
      width={855}
      height={1200}
-   /> 
+   />
  )
 }
