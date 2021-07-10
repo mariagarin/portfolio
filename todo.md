@@ -14,3 +14,5 @@
 - `git checkout BRANCHNAME` goes to that branch
 - `git add .` adds files
 - `git commit -am "SOMEMESSAGE"` makes a commit
+- `git log` shows you your commits
+- `git push origin BRANCHNAME` pushes to your upstream branch
