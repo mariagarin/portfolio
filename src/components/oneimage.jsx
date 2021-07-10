@@ -6,4 +6,5 @@ const OneImage = ({filename, alt}) => {
   return <StaticImage src={`../images/${filename}`} alt={alt} />
 }
 
+
 export default OneImage
