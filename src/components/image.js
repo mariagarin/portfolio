@@ -77,6 +77,10 @@ export function GMASPIKES() {
  return <StaticImage src="../images/gmaspikes.png" alt="GMASPIKES" />
 }
 
+export function ZEST1() {
+ return <StaticImage src="../images/zest1.png" alt="ZEST1" />
+}
+
 export function GREENCOVER() {
  return <StaticImage src="../images/greencover.png" alt="GREENCOVER" />
 }
