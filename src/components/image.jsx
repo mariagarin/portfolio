@@ -1,9 +1,9 @@
-// import { StaticImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 
 import React from "react"
 
-const OneImage = () => (
-  <div>OneImage Placeholder</div>
+const OneImage = ({ name }) => (
+  <StaticImage src="../images/wwf01.png" alt={'test'} />
 )
 
 export default OneImage
