@@ -1,8 +1,10 @@
 
 
-[x] add back in @lekoarts/gatsby-theme-jodie
-[ ] add back in babel-plugin-remove-graphql-queries
-[x] add back in gatsby-plugin-image
+[ ] see if our current thing works
+[ ] add back in one image, see if it loads
+[ ] if it doesnmt, add back in gatsby filesystem to load there
+[ ] see if that one image works again
+[ ] make it dymamic
 
 
 
