@@ -1,12 +1,14 @@
 import React from "react"
 import Img from "gatsby-image"
 // import useInstagram from "../hooks/use-instagram"
-import Heart from "./heart"
+// import Heart from "./heart"
 import "./style.css"
 
 const Instagram = () => {
 
-  return 'instagram image here'
+  return (
+    <div>Instagram placeholder</div>
+  )
 
   // const nodes = useInstagram()
 

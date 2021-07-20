@@ -1,8 +1,13 @@
-import { StaticImage } from "gatsby-plugin-image";
+// import { StaticImage } from "gatsby-plugin-image";
 
-export function OneImage() {
- return 'TODO'
-}
+import React from "react"
+
+const OneImage = () => (
+  <div>OneImage Placeholder</div>
+)
+
+export default OneImage
+
 
 
 // // PR
