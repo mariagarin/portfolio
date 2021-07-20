@@ -42,12 +42,12 @@ module.exports = {
         trackingId: process.env.GOOGLE_ANALYTICS_ID,
       },
     },
-    {
-      resolve: `gatsby-source-instagram`,
-      options: {
-        username: `5737961233`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-instagram`,
+    //   options: {
+    //     username: `5737961233`,
+    //   },
+    // },
     `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
