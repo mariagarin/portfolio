@@ -1,9 +1,9 @@
 
 
-[ ] see if our current thing works
-[ ] add back in one image, see if it loads
+[x] see if our current thing works
+[x] add back in one image, see if it loads
 [ ] if it doesnmt, add back in gatsby filesystem to load there
-[ ] see if that one image works again
+[x] see if that one image works again
 [ ] make it dymamic
 
 

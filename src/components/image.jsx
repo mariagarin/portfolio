@@ -2,9 +2,16 @@ import { StaticImage } from "gatsby-plugin-image";
 
 import React from "react"
 
-const OneImage = ({ name }) => (
-  <StaticImage src="../images/wwf01.png" alt={'test'} />
-)
+const OneImage = ({ name }) => {
+  var fileName = "../images/zest1.png";
+  if (name){
+    fileName = `../images/${name}.png`;
+  }
+  return (
+    <StaticImage src={fileName} alt={name} />
+  )
+}
+
 
 export default OneImage
 
